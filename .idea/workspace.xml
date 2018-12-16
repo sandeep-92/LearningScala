@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f062fdf7-ea98-46e9-b46b-1cf5305c092d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/part3_functionalProgramming/HofAndCurries.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/part4_patternMatching/PatternMatching.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/lectures/part3_functionalProgramming/AnonymousFunctions$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/lectures/part3_functionalProgramming/AnonymousFunctions$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/lectures/part3_functionalProgramming/AnonymousFunctions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/lectures/part3_functionalProgramming/AnonymousFunctions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/lectures/part3_functionalProgramming/HofAndCurries.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/lectures/part3_functionalProgramming/HofAndCurries.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,11 +24,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HofAndCurries.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HofAndCurries.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/lectures/part3_functionalProgramming/HofAndCurries.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="41" column="33" lean-forward="true" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+            <state relative-caret-position="457">
+              <caret line="46" column="28" lean-forward="true" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PatternMatching.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/lectures/part4_patternMatching/PatternMatching.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="71" lean-forward="true" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -74,10 +82,11 @@
         <option value="$PROJECT_DIR$/src/main/scala/lectures/part3_functionalProgramming/WhatsaFunction.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/lectures/part3_functionalProgramming/AnonymousFunctions.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/lectures/part3_functionalProgramming/HofAndCurries.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/lectures/part4_patternMatching/PatternMatching.scala" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -142,6 +151,15 @@
               <item name="lectures" type="462c0819:PsiDirectoryNode" />
               <item name="part3_functionalProgramming" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="RTJVM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RTJVM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="lectures" type="462c0819:PsiDirectoryNode" />
+              <item name="part4_patternMatching" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -167,7 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HofAndCurries">
+  <component name="RunManager" selected="Application.PatternMatching">
     <configuration name="AnonymousFunctions" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lectures.part3_functionalProgramming.AnonymousFunctions" />
       <module name="rtjvm" />
@@ -201,13 +219,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="PocketCalculator" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part2_oops.PocketCalculator" />
+    <configuration name="PatternMatching" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part4_patternMatching.PatternMatching" />
       <module name="rtjvm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lectures.part2_oops.*" />
+          <option name="PATTERN" value="lectures.part4_patternMatching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -265,19 +283,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.PocketCalculator" />
       <item itemvalue="Application.OOBasics" />
       <item itemvalue="Application.WhatsaFunction" />
       <item itemvalue="Application.AnonymousFunctions" />
       <item itemvalue="Application.HofAndCurries" />
+      <item itemvalue="Application.PatternMatching" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PatternMatching" />
         <item itemvalue="Application.HofAndCurries" />
         <item itemvalue="Application.AnonymousFunctions" />
         <item itemvalue="Application.WhatsaFunction" />
         <item itemvalue="Application.OOBasics" />
-        <item itemvalue="Application.PocketCalculator" />
       </list>
     </recent_temporary>
   </component>
@@ -338,32 +356,32 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32965517" />
-      <window_info anchor="right" id="sbt" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32965517" />
+      <window_info anchor="right" id="sbt" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32965517" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.22786458" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="7" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32965517" />
+      <window_info anchor="bottom" id="Build" order="11" weight="0.32965517" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
@@ -371,44 +389,37 @@
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32965517" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Build" order="11" weight="0.32965517" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22786458" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22786458" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32965517" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="sbt" order="7" />
-      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" id="sbt" order="8" />
+      <window_info id="Capture Tool" order="6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32965517" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info id="Favorites" order="5" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/lectures/part2_oops/Inheritance.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1848">
-          <caret line="84" column="9" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/lectures/part2_oops/Generics.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1012">
@@ -750,8 +761,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/lectures/part3_functionalProgramming/HofAndCurries.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="41" column="33" lean-forward="true" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+        <state relative-caret-position="457">
+          <caret line="46" column="28" lean-forward="true" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/lectures/part4_patternMatching/PatternMatching.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="71" lean-forward="true" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
         </state>
       </provider>
     </entry>

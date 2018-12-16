@@ -41,4 +41,10 @@ object HofAndCurries extends App {
   println(standardFormat(Math.PI))
   println(preciseFormat(Math.PI))
 
+  //currying
+  def nonCurriedFunc(x: Int, y: Int): Int = x + y
+  def curriedFunc(x: Int)(y: Int): Int = x + y
+  println(curriedFunc(3)(4))
+
+
 }
